@@ -1,0 +1,19 @@
+/* base */
+@import "./base/normalize.css";
+@import "./base/fonts.css";
+@import "./base/vars.css";
+@import "./base/globals.css";
+
+/* blocks */
+@import "./blocks/site-header.css";
+@import "./blocks/hero.css";
+@import "./blocks/categories.css";
+@import "./blocks/benefits.css";
+@import "./blocks/featured.css";
+@import "./blocks/adventure.css";
+@import "./blocks/gift-sets.css";
+@import "./blocks/reviews.css";
+@import "./blocks/faq.css";
+@import "./blocks/cta.css";
+@import "./blocks/site-footer.css";
+@import "./blocks/scroll-top.css";
