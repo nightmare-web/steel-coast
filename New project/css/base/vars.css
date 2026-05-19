@@ -1,0 +1,73 @@
+:root {
+	/* font-family */
+	--font-family: "Segoe UI Local", "Segoe UI", sans-serif;
+	--second-family: "Georgia Local", Georgia, serif;
+
+	/* container */
+	--container-width: 1240px;
+	--container-padding: 16px;
+	--container-width-xl: 1240px;
+	--container-width-lg: 1140px;
+	--container-width-md: 850px;
+	--container-width-sm: 650px;
+
+	/* section spacing */
+	--section-space-y: 72px;
+
+	/* colors */
+	--color-bg: #101513;
+	--color-surface: #18201d;
+	--color-text: #f4efdf;
+	--color-text-muted: #b5b8ac;
+	--color-accent: #c6924b;
+	--color-accent-soft: #ebc98e;
+	--color-border: rgba(244, 227, 196, 0.14);
+	--color-border-strong: rgba(244, 227, 196, 0.3);
+
+	/* shadows */
+	--shadow-lg: 0 30px 80px rgba(0, 0, 0, 0.35);
+	--shadow-md: 0 18px 50px rgba(0, 0, 0, 0.22);
+
+	/* radius */
+	--radius-md: 24px;
+	--radius-lg: 36px;
+
+	/* transitions */
+	--transition-time: 0.22s ease;
+}
+
+@media (max-width: 1200px) {
+	:root {
+		--section-space-y: 64px;
+	}
+}
+
+@media (max-width: 992px) {
+	:root {
+		--section-space-y: 56px;
+	}
+}
+
+@media (max-width: 768px) {
+	:root {
+		--section-space-y: 48px;
+	}
+}
+
+@media (max-width: 576px) {
+	:root {
+		--section-space-y: 40px;
+	}
+}
+
+@media (max-width: 390px) {
+	:root {
+		--section-space-y: 36px;
+	}
+}
+
+@media (max-width: 320px) {
+	:root {
+		--section-space-y: 32px;
+	}
+}
